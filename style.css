@@ -1,0 +1,88 @@
+body {
+    background: hsl(210, 60%, 98%);
+    font-family: "Big Shoulders", sans-serif;
+}
+
+main {
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+
+div {  
+    padding: 40px;
+}
+
+h2{ 
+    color: white;
+    font-size: 3rem;
+}
+
+p{
+    color:  hsla(0, 0%, 100%, 0.75);
+    font-family: "Lexend Deca", sans-serif;
+    margin-bottom: 60px;
+    line-height: 1.5;
+}
+
+.card-1 button {
+    color:  hsl(31, 77%, 62%);
+}
+
+.card-2 button {
+    color:  hsl(184, 100%, 22%);
+}
+
+.card-3 button {
+    color:  hsl(179, 100%, 13%);
+}
+
+button {
+    border: 2px solid white;
+    background: white;
+    padding: 10px;
+    border-radius: 24px;
+    font-family: "Lexend Deca", sans-serif;
+}
+
+button:hover {
+    background: transparent;
+    cursor: pointer;
+    color: white;
+}
+
+.card-1 {
+    background-color:  hsl(31, 77%, 52%);
+}
+
+.card-2 {
+    background-color:  hsl(184, 100%, 22%);
+}
+
+.card-3 {
+    background-color:  hsl(179, 100%, 13%);
+}
+
+.attribution {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.attribution p {
+    color: black;
+}
+
+
+@media (min-width: 840px) {
+    main {
+        width: 100%;
+        max-width: 850px;
+        display: flex;
+        flex-direction: row;
+        margin: auto;
+    }
+}
